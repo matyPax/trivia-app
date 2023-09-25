@@ -1,0 +1,114 @@
+* {
+    transition: all 0.3s;
+}
+
+
+header{
+    height: 99%;
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 700;
+}
+nav a:hover{
+    color:#537FE7;
+    transition: ease-in 300ms;
+}  
+body {
+    height: 100%;
+    background: #E9F8F9;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: calibri;
+    font-size: 120%;
+    background-image: url("/img/Imgs-decoration/fondoTrivia.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cont-all{
+    display: grid;
+    justify-content: center;
+    width: 100vw;
+}
+.contenedor {
+    width: 78vw;
+    height: 80vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.encabezado {
+    position: relative;
+    display: block;
+    margin: auto;
+    border-radius: 53px;
+    background: linear-gradient(145deg, #d2dfe0, #f9ffff);
+    min-width: 300px;
+    width: 80vw;
+    border-radius: 30px;
+    max-width: 600px;
+    
+}
+.categoria {
+    opacity: 0.3;
+    text-align: left;
+}
+.pregunta {
+    padding: 10px;
+}
+.imagen {
+    object-fit: cover;
+    height: auto;
+    width: 225px;
+
+}
+.btn {
+    
+    border-radius: 25px;
+    background: white;
+    outline: 2px solid black;
+    border: 0px ;
+    width: 100%;
+    max-width: 550px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+    height: 40px;
+    position: relative;
+    left: 15px;
+    font-weight: 600;
+}
+.btn:hover {
+    transform: scale(1.05);
+    color: #537FE7;
+    transition: 500ms;
+}
+.numero{
+    position: absolute;
+    opacity:0.3;
+    top: 10px;
+    right: 10px;
+}
+.puntaje{
+    padding:10px;
+    color:#000;
+}
+
+.incorrecto{
+    background-color: red;
+    transition: background-color .5s ease;
+}
+.correcto{
+    background-color: green;
+    transition: background-color .5s ease;
+}
